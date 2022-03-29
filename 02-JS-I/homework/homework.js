@@ -112,7 +112,10 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  var par = num % 2
+  if (par === 0) { return true
+  }
+  return false
 }
 
 function esImpar(num) {
