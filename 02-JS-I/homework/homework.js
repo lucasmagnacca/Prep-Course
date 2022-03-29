@@ -123,7 +123,7 @@ function esImpar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   var impar = num % 2
-  if (num !== 0){
+  if (num != 0){
   return true
   }
   return false
@@ -157,7 +157,7 @@ function redondearNumero(num) {
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  return Math.floor(num)
+  return Math.ceil(num)
 }
 
 function numeroRandom() {
@@ -171,7 +171,9 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  
+  if (num => 0) {return "es positivo"
+}
+return "es negativo"
 }
 
 function agregarSimboloExclamacion(str) {
