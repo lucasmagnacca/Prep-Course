@@ -123,7 +123,7 @@ function esImpar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   var impar = num % 2
-  if (num != 0){
+  if (impar != 0){
   return true
   }
   return false
@@ -171,7 +171,7 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if (num => 0) {return "es positivo"
+  if (num >= 0) {return "es positivo"
 }
 return "es negativo"
 }
