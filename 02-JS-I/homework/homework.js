@@ -42,29 +42,31 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  y - x
+  resta= y - x
   
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  x*y
+  multiplica= x*y
   
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  x/y
+  divide= x/y
   
 }
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
-  // Tu código:if {x =y}
-  
+  // Tu código:if (x=y){
+    true
+  }
+  else {false}
 }
 
 function tienenMismaLongitud(str1, str2) {
