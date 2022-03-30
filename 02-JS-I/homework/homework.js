@@ -203,7 +203,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return "hola " + nombre
+  return "Hola " + nombre + "!"
   
 }
 
@@ -224,7 +224,7 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-return (base*altura)/2
+return (base*altura)
 }
 
 
@@ -243,9 +243,10 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
  if(letra === "a" )  {return "Es vocal"}
- else if(letra === "b" )  {return "Es vocal"}
- else if(letra === "c" )  {return "Es vocal"}
- else if(letra === "d" )  {return "Es vocal"}
+ else if(letra === "e" )  {return "Es vocal"}
+ else if(letra === "i" )  {return "Es vocal"}
+ else if(letra === "o" )  {return "Es vocal"}
+ else if(letra === "u" )  {return "Es vocal"}
 return "Dato incorrecto"
 }
 
