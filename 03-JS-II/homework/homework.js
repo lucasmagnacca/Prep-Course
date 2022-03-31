@@ -24,7 +24,7 @@ function conection(status) {
   //De lo contrario, presumimos que el usuario está "Offline"
   //Devolver el estado de conexión de usuario en cada uno de los casos.
   if (status = 1) {return "Online"}
-  else if (status = 2) {return "Away"}
+  if (status = 2) {return "Away"}
   return "Offline"
 }
 
@@ -36,8 +36,8 @@ function saludo(idioma) {
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
   if (idioma = "aleman") {return "Guten Tag!"}
-  if (idioma = "mandarin") {return "Ni Hao!"}
-  if (idioma = "ingles") {return "Hello!"}
+  else if (idioma = "mandarin") {return "Ni Hao!"}
+   else if (idioma = "ingles") {return "Hello!"}
   return "Hola!"
 }
 
@@ -50,9 +50,9 @@ function colors(color) {
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
   if (color = "blue") {return "This is blue"}
-  if (color = "red") {return "This is red"}
-  if (color = "green") {return "This is green"}
-  if (color = "orange") {return "This is orange"}
+  else if (color = "red") {return "This is red"}
+  else if (color = "green") {return "This is green"}
+  else if (color = "orange") {return "This is orange"}
 return "Color not found"
 }
 
