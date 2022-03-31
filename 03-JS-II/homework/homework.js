@@ -61,7 +61,7 @@ function esDiezOCinco(numero) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (numero = 10 || 5) {return true}
-  return false
+  else  {return false}
 }
 
 function estaEnRango(numero) {
@@ -80,7 +80,7 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-
+return numero % 1 === 0
 }
 
 function fizzBuzz(numero) {
@@ -88,6 +88,10 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 5, devuelve "buzz"
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
+  if (numero%3 === 0) {return "fizz"}
+  if (numero%5 === 0) {return "buzz"}
+  if (numero%(3 & 5) === 0) {return "fizzbuzz"}
+  else {return numero}
 }
 
 function operadoresLogicos(num1, num2, num3) {
