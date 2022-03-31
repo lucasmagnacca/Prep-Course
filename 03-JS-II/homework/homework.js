@@ -60,7 +60,7 @@ function esDiezOCinco(numero) {
   // Devuelve "true" si "numero" es 10 o 5
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (numero = 10 || 5) {return true}
+  if (numero === 10 || numero === 5) {return true}
   else  {return false}
 }
 
@@ -90,7 +90,7 @@ function fizzBuzz(numero) {
   // De lo contrario, devuelve el numero
   if (numero%3 === 0) {return "fizz"}
   if (numero%5 === 0) {return "buzz"}
-  if (numero%(3 & 5) === 0) {return "fizzbuzz"}
+  if (numero%3 === 0 & numero%5 === 0) {return "fizzbuzz"}
   else {return numero}
 }
 
